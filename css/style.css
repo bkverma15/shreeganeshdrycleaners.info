@@ -751,3 +751,24 @@ footer {
   .gallery-grid { grid-template-columns:1fr 1fr; gap:10px; }
   .about-stats { grid-template-columns:1fr 1fr; }
 }
+
+/* Screen reader only utility class for SEO and accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* FAQ question title styling for non-heading elements */
+.faq-question-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: inherit;
+}
