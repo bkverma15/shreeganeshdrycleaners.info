@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Fabric Care Products | Shree Ganesh Dry Cleaners</title>
+    <meta name="description" content="Expert-recommended fabric care products by Shree Ganesh Dry Cleaners, Kota. Best detergents, stain removers, garment bags, shoe care kits & home cleaning tools. Buy on Amazon.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Recommended Fabric Care Products | Shree Ganesh Dry Cleaners">
+    <meta property="og:description" content="Professional dry cleaners ki taraf se recommended products — detergents, stain removers, garment care, shoe kits & more. Amazon se khareedein.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://shreeganeshdrycleaners.com/logo.webp">
+    <meta property="og:locale" content="hi_IN">
+    <link rel="canonical" href="https://shreeganeshdrycleaners.com/recommended-products.html">
+    
+    <!-- Google Fonts - Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
+    
+    <link rel="icon" type="image/png" href="logo.webp">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://shreeganeshdrycleaners.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Recommended Products", "item": "https://shreeganeshdrycleaners.com/recommended-products.html" }
+        ]
+    }
+    </script>
+    <style>
+        /* ===== Affiliate Products Page Styles ===== */
+        :root {
+            --primary-light-rgba: rgba(10, 25, 47, 0.04);
+            --accent: var(--gold);
+            --text-muted: var(--text-light);
+            --border: rgba(0, 0, 0, 0.08);
+            --secondary: var(--white);
+            --shadow: var(--shadow-md);
+        }
+        .affiliate-disclaimer {
+            background: rgba(201, 168, 76, 0.08);
+            border: 1px solid rgba(201, 168, 76, 0.2);
+            border-radius: var(--radius);
+            padding: 14px 20px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+        .affiliate-disclaimer i {
+            color: var(--accent);
+            margin-right: 6px;
+        }
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 24px;
+            padding-bottom: 14px;
+            border-bottom: 2px solid var(--border);
+        }
+        .category-header .cat-icon {
+            width: 52px; height: 52px;
+            border-radius: 50%;
+            display: grid; place-items: center;
+            background: rgba(201, 168, 76, 0.12);
+            color: var(--accent);
+            font-size: 1.4rem;
+            flex-shrink: 0;
+        }
+        .category-header h2 {
+            font-size: 1.4rem;
+            margin: 0;
+            color: var(--primary);
+        }
+        .category-header p {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-top: 2px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin-bottom: 60px;
+        }
+        .product-card {
+            background: var(--secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+        .product-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+        }
+        .product-img {
+            aspect-ratio: 1 / 1;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 1px solid var(--border);
+        }
+        .product-img img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover .product-img img {
+            transform: scale(1.05);
+        }
+        .product-img i {
+            font-size: 3.5rem;
+            color: #c9a84c;
+            opacity: 0.35;
+        }
+        .product-placeholder-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .product-placeholder-wrap span {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+        .product-badge {
+            position: absolute;
+            top: 12px; left: 12px;
+            background: var(--accent);
+            color: var(--primary);
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .product-body {
+            padding: 18px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-body h3 {
+            font-size: 1rem;
+            margin-bottom: 6px;
+            line-height: 1.3;
+            color: var(--primary);
+        }
+        .product-body .product-desc {
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            margin-bottom: 12px;
+            flex: 1;
+        }
+        .product-body .product-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+        .product-body .product-rating {
+            color: var(--accent);
+            font-size: 0.8rem;
+        }
+        .product-body .product-price {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        .btn-amazon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px 16px;
+            background: #FF9900;
+            color: #111;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+        .btn-amazon:hover {
+            background: #e88b00;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 153, 0, 0.3);
+        }
+        .btn-amazon i {
+            font-size: 1rem;
+        }
+        .expert-tip {
+            background: var(--primary-light);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 18px 22px;
+            margin-bottom: 50px;
+        }
+        .expert-tip h4 {
+            color: var(--accent);
+            font-size: 0.9rem;
+            margin-bottom: 6px;
+        }
+        .expert-tip h4 i {
+            margin-right: 6px;
+        }
+        .expert-tip p {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            line-height: 1.7;
+        }
+        @media (max-width: 480px) {
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+            .product-body { padding: 12px; }
+            .product-body h3 { font-size: 0.85rem; }
+            .product-body .product-desc { font-size: 0.75rem; }
+            .btn-amazon { font-size: 0.75rem; padding: 8px 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================
+         HEADER
+         ============================================ -->
+    <header>
+        <div class="container nav-wrapper">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="logo.webp" alt="Shree Ganesh Dry Cleaners" width="60" height="50"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="price-list.html">Price List</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="recommended-products.html" class="active" style="color:var(--gold); font-weight:700;">Shop</a></li>
+                    <li><a href="tel:9950456693" class="btn btn-primary"><i class="fas fa-phone-alt"></i> 9950456693</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================
+         PAGE HEADER
+         ============================================ -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Expert-Recommended Fabric Care Products</h1>
+            <p>10+ years ke dry cleaning experience se humne curate kiye hain best products — jo aapke kapdo ko ghar par bhi professional care dein. Amazon se khareedein.</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <span>›</span> <span>Recommended Products</span>
+            </div>
+        </div>
+    </div>
+
+<section class="section">
+    <div class="container">
+
+        <!-- Affiliate Disclaimer -->
+        <div class="affiliate-disclaimer fade-in">
+            <i class="fas fa-info-circle"></i>
+            <strong>Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases. This doesn't affect the price you pay. We only recommend products we trust and use ourselves.
+        </div>
+
+    <!-- ===== CATEGORY 1: Fabric Care & Detergents ===== -->
+    <div class="fade-in">
+        <div class="category-header">
+            <div class="cat-icon"><i class="fas fa-pump-soap"></i></div>
+            <div>
+                <h2>Fabric Care & Detergents</h2>
+                <p>Premium detergents jo humari team bhi recommend karti hai — safe for delicate fabrics.</p>
+            </div>
+        </div>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <!-- TIP: Replace this src with your Amazon Associate Image Link HTML or URL -->
+                    <img src="images/surf_excel.jpeg" alt="Surf Excel" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-jug-detergent"></i>
+                        <span>Detergent</span>
+                    </div>
+                    <span class="product-badge">⭐ Top Pick</span>
+                </div>
+                <div class="product-body">
+                    <h3>Surf Excel Matic Liquid Detergent</h3>
+                    <p class="product-desc">Top load washing machines ke liye best. Tough stains remove kare, gentle on fabrics. 2L pack — value for money.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.3</span>
+                        <span class="product-price">~₹399</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=Surf+Excel+Matic+Liquid+Detergent+Top+Load&amp;tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/genteel_detergent.jpeg" alt="Genteel Liquid" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-jug-detergent"></i>
+                        <span>Delicate Wash</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Genteel Liquid Detergent</h3>
+                    <p class="product-desc">Woolen, silk aur delicate kapdon ke liye specialist. No harsh chemicals. Colors safe rahe. 1L pack.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.1</span>
+                        <span class="product-price">~₹199</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=Genteel+Liquid+Detergent&amp;tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/fabric_conditioner.jpeg" alt="Comfort Fabric Conditioner" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-bottle-droplet"></i>
+                        <span>Conditioner</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Comfort Fabric Conditioner</h3>
+                    <p class="product-desc">Kapdon ko soft, fresh aur fragrant banaye. Ironing bhi easy ho jaati hai. 860ml bottle.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★★ 4.5</span>
+                        <span class="product-price">~₹199</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=Comfort+Fabric+Conditioner+860ml&amp;tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="expert-tip">
+            <h4><i class="fas fa-lightbulb"></i> Expert Tip — Detergent Use</h4>
+            <p>Delicate fabrics (silk, wool, chiffon) pe kabhi bhi regular detergent mat use karo — colour fade hota hai aur fabric weak hoti hai. Genteel ya similar mild liquid use karo. Heavy stains ke liye pehle pre-treat karo, phir gentle cycle pe wash karo.</p>
+        </div>
+    </div>
+
+    <!-- ===== CATEGORY 2: Stain Removers ===== -->
+    <div class="fade-in">
+        <div class="category-header">
+            <div class="cat-icon"><i class="fas fa-spray-can-sparkles"></i></div>
+            <div>
+                <h2>Stain Removers</h2>
+                <p>Tough stains ko ghar pe bhi professionally treat karo — chai, oil, ink sab ke liye.</p>
+            </div>
+        </div>
+        <div class="product-grid">
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/vanish_stain.jpeg" alt="Vanish Stain Remover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-spray-can"></i>
+                        <span>Stain Remover</span>
+                    </div>
+                    <span class="product-badge">⭐ Best Seller</span>
+                </div>
+                <div class="product-body">
+                    <h3>Vanish Oxi Action Stain Remover</h3>
+                    <p class="product-desc">India's #1 stain remover. White aur coloured dono kapdon ke liye safe. Chai, coffee, oil stains — sab hataye.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.2</span>
+                        <span class="product-price">~₹249</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=Vanish+Oxi+Action+Stain+Remover&amp;tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/dr_beckmann.jpeg" alt="Dr. Beckmann Stain Devils" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-spray-can-sparkles"></i>
+                        <span>Stain Devils</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Dr. Beckmann Stain Devils</h3>
+                    <p class="product-desc">German quality stain remover. Specific stain types ke liye available — grease, ink, blood, wine. Professional grade.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.0</span>
+                        <span class="product-price">~₹299</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=Dr.+Beckmann+Stain+Devils&amp;tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/ifb_stain.jpeg" alt="IFB Essentials Stain-Free" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-bottle-water"></i>
+                        <span>Pre-Wash Spray</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>IFB Essentials Stain-Free</h3>
+                    <p class="product-desc">Pre-wash stain treatment. Collar, cuff aur underarm stains ke liye perfect. Machine wash se pehle lagao.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.1</span>
+                        <span class="product-price">~₹175</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=IFB+Essentials+Stain+Free&amp;tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== CATEGORY 3: Garment Storage & Protection ===== -->
+    <div class="fade-in">
+        <div class="category-header">
+            <div class="cat-icon"><i class="fas fa-shirt"></i></div>
+            <div>
+                <h2>Garment Storage & Protection</h2>
+                <p>Dry cleaned kapdon ko safe rakhne ke liye — garment bags, hangers, mothballs.</p>
+            </div>
+        </div>
+        <div class="product-grid">
+            <!-- Product 7 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/garment_bags.jpeg" alt="Garment Bags" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-bag-shopping"></i>
+                        <span>Garment Bags</span>
+                    </div>
+                    <span class="product-badge">⭐ Must Have</span>
+                </div>
+                <div class="product-body">
+                    <h3>Garment Bags (Set of 6)</h3>
+                    <p class="product-desc">Breathable, dust-proof garment covers. Suits, blazers, sarees ke liye. Transparent window — easy identification. Full-length zipper.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.3</span>
+                        <span class="product-price">~₹499</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=garment+bags+suit+cover&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/wooden_hangers.jpeg" alt="Wooden Suit Hangers" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-vest-patches"></i>
+                        <span>Suit Hangers</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Wooden Suit Hangers (Set of 6)</h3>
+                    <p class="product-desc">Premium wooden hangers — suits aur blazers ka shape maintain kare. Wide shoulder design, non-slip bar. Plastic hangers se 10x better.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★★ 4.5</span>
+                        <span class="product-price">~₹699</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=wooden+suit+hangers&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/naphthalene_balls.jpeg" alt="Naphthalene Balls / Cedar Blocks" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-shield-halved"></i>
+                        <span>Moth Protection</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Naphthalene Balls / Cedar Blocks</h3>
+                    <p class="product-desc">Kapdon ko keede-makode se bachao. Almirah mein rakhne se fresh fragrance bhi aati hai. 6-month protection.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.2</span>
+                        <span class="product-price">~₹149</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=cedar+blocks+mothballs+wardrobe&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="expert-tip">
+            <h4><i class="fas fa-lightbulb"></i> Expert Tip — Garment Storage</h4>
+            <p>Dry cleaned kapdon ko hamesha breathable garment bags mein store karo — plastic covers avoid karo kyunki moisture trap hoti hai aur yellowing hota hai. Wooden hangers use karo suits ke liye — wire hangers se shoulder shape kharab hota hai.</p>
+        </div>
+    </div>
+
+    <!-- ===== CATEGORY 4: Shoe Care ===== -->
+    <div class="fade-in">
+        <div class="category-header">
+            <div class="cat-icon"><i class="fas fa-shoe-prints"></i></div>
+            <div>
+                <h2>Shoe Care Products</h2>
+                <p>Shoes ko naye jaisa rakhne ke liye — polish, cleaning kits, shoe trees.</p>
+            </div>
+        </div>
+        <div class="product-grid">
+            <!-- Product 10 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/shoe_cleaning_kit.jpeg" alt="Shoe Cleaning Kit" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-shoe-prints"></i>
+                        <span>Shoe Kit</span>
+                    </div>
+                    <span class="product-badge">⭐ Pro Choice</span>
+                </div>
+                <div class="product-body">
+                    <h3>Shoe Cleaning Kit (Complete)</h3>
+                    <p class="product-desc">Brush, solution, microfiber cloth — sab included. Sneakers, leather, canvas sab ke liye. 200+ washes per bottle.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.3</span>
+                        <span class="product-price">~₹399</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=shoe+cleaning+kit&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 11 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/shoe_spray.jpeg" alt="Shoe Protector Spray" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-spray-can"></i>
+                        <span>Waterproof Spray</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Shoe Protector Spray</h3>
+                    <p class="product-desc">Water-repellent spray — baarish mein bhi shoes safe. Canvas, suede, leather sab pe kaam kare. One spray = 2-3 weeks protection.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.1</span>
+                        <span class="product-price">~₹349</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=shoe+protector+spray+waterproof&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 12 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/shoe_trees.jpeg" alt="Cedar Shoe Trees" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-tree"></i>
+                        <span>Shoe Trees</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Cedar Shoe Trees (Pair)</h3>
+                    <p class="product-desc">Leather shoes ka shape maintain kare, moisture absorb kare, aur natural fragrance de. Must-have for formal shoes.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★★ 4.5</span>
+                        <span class="product-price">~₹599</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=cedar+shoe+tree&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== CATEGORY 5: Home Cleaning & Ironing ===== -->
+    <div class="fade-in">
+        <div class="category-header">
+            <div class="cat-icon"><i class="fas fa-house-chimney"></i></div>
+            <div>
+                <h2>Home Cleaning & Ironing Tools</h2>
+                <p>Ghar pe professional-level cleaning aur pressing ke liye best tools.</p>
+            </div>
+        </div>
+        <div class="product-grid">
+            <!-- Product 13 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/garment_steamer.jpeg" alt="Garment Steamer" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-wind"></i>
+                        <span>Steamer</span>
+                    </div>
+                    <span class="product-badge">⭐ Best Value</span>
+                </div>
+                <div class="product-body">
+                    <h3>Garment Steamer (Handheld)</h3>
+                    <p class="product-desc">Wrinkles hatao bina ironing board ke. Suits, sarees, curtains — sab pe use karo. Heat-up time 30 seconds. Portable.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.2</span>
+                        <span class="product-price">~₹1,299</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=handheld+garment+steamer&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 14 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/lint_roller.jpeg" alt="Lint Roller" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-broom"></i>
+                        <span>Lint Roller</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Lint Roller (Pack of 5)</h3>
+                    <p class="product-desc">Suit aur blazer se pet hair, lint, dust instantly hatao. Pocket mein rakhne layak size bhi available. 60 sheets per roller.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★★ 4.6</span>
+                        <span class="product-price">~₹249</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=lint+roller+pack&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 15 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/carpet_cleaner.jpeg" alt="Carpet & Upholstery Cleaner" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="product-placeholder-wrap" style="display: none;">
+                        <i class="fas fa-couch"></i>
+                        <span>Fabric Cleaner</span>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <h3>Carpet & Upholstery Cleaner</h3>
+                    <p class="product-desc">Scotchgard ya similar carpet spray — stains prevent kare aur existing stains remove kare. Sofa, car seats pe bhi use karo.</p>
+                    <div class="product-meta">
+                        <span class="product-rating">★★★★☆ 4.0</span>
+                        <span class="product-price">~₹499</span>
+                    </div>
+                    <a href="https://www.amazon.in/s?k=carpet+upholstery+cleaner+spray&tag=shreeganes029-21" class="btn-amazon" target="_blank" rel="noopener nofollow sponsored">
+                        <i class="fab fa-amazon"></i> Buy on Amazon
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="expert-tip">
+            <h4><i class="fas fa-lightbulb"></i> Expert Tip — Steam vs Iron</h4>
+            <p>Delicate fabrics (silk saree, chiffon dupatta, designer wear) pe iron kabhi mat use karo — steamer use karo. Iron se shine marks, burn marks aur fabric damage hota hai. Steamer se fabric safe rahti hai aur wrinkles bhi perfectly nikalti hain.</p>
+        </div>
+    </div>
+
+    <!-- QR Code Section for Shop Owner -->
+    <div class="fade-in" style="max-width: 500px; margin: 3rem auto; text-align: center; padding: 2rem; background: var(--secondary); border-radius: 12px; border: 1px solid var(--border); box-shadow: var(--shadow);">
+        <h3 style="margin-bottom: 0.5rem; color: var(--primary);"><i class="fas fa-qrcode" style="color: var(--gold); margin-right: 0.5rem;"></i> Shop Counter QR Code</h3>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem;">Keshavpura shop ke counter par lagane ke liye is QR Code ko download karke print kar lein. Customers ise scan karke direct is recommendations page par aa sakte hain.</p>
+        <div style="background: white; padding: 1rem; border-radius: 8px; display: inline-block; box-shadow: var(--shadow-sm); margin-bottom: 1.5rem;">
+            <canvas id="qr-canvas" style="display: block; width: 200px; height: 200px;"></canvas>
+        </div>
+        <div>
+            <button id="download-qr-btn" class="btn btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.95rem; border-radius: 6px;">
+                <i class="fas fa-download"></i> Download QR Image
+            </button>
+        </div>
+    </div>
+
+    </div> <!-- .container -->
+</section>
+
+<!-- ============================================
+     CTA SECTION
+     ============================================ -->
+<section class="cta">
+    <div class="cta-content container">
+        <h2>Professional Cleaning Chahiye?</h2>
+        <p>Products se nahi ho raha? Hum hain na — expert dry cleaning, free pickup & delivery!</p>
+        <div class="cta-buttons">
+            <a href="tel:9950456693" class="btn btn-primary btn-lg"><i class="fas fa-phone-alt"></i> Call Now: 9950456693</a>
+            <a href="https://wa.me/919950456693?text=Hello%20Shree%20Ganesh%20Dry%20Cleaners,%20I%20want%20to%20book%20a%20pickup." target="_blank" rel="noopener noreferrer" class="btn btn-white btn-lg"><i class="fab fa-whatsapp"></i> WhatsApp Now</a>
+            <a href="contact.html" class="btn btn-white-outline btn-lg"><i class="fas fa-envelope"></i> Get Quote</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>Shree Ganesh Dry Cleaners</h3>
+                <p>Kota ka bharosa – professional dry cleaning, laundry, saree cleaning, coat cleaning, shoe cleaning aur carpet cleaning services. 10+ years experience, free pickup & delivery.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61555297948252" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/sgdry_cleaners/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/bkverma1506" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/919950456693?text=Hello%20Shree%20Ganesh%20Dry%20Cleaners,%20I%20need%20dry%20cleaning%20service." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services/dry-cleaning-service-in-kota.html">Dry Cleaning Service</a></li>
+                    <li><a href="services/laundry-service-in-kota.html">Laundry Service</a></li>
+                    <li><a href="services/saree-dry-cleaning-in-kota.html">Saree Dry Cleaning</a></li>
+                    <li><a href="services/coat-dry-cleaning-in-kota.html">Coat Dry Cleaning</a></li>
+                    <li><a href="services/shoe-cleaning-service-in-kota.html">Shoe Cleaning Service</a></li>
+                    <li><a href="services/carpet-cleaning-service-in-kota.html">Carpet Cleaning</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">All Services</a></li>
+                    <li><a href="price-list.html">Price List</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="recommended-products.html">Shop</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:9950456693" style="color:rgba(255,255,255,0.65);">+91 9950456693</a></li>
+                    <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919950456693" target="_blank" style="color:rgba(255,255,255,0.65);">WhatsApp: 9950456693</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/dir/?api=1&destination=SHREE+GANESH+DRY+CLEANERS+Keshavpura+Kota" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.65);">863, Keshavpura, Sector 4, Kota, RJ 324009</a></li>
+                    <li><i class="fas fa-clock"></i> <span style="color:rgba(255,255,255,0.65);">Mon - Sun: 8:00 AM - 9:00 PM</span></li>
+                </ul>
+                <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;">
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=SHREE+GANESH+DRY+CLEANERS+Keshavpura+Kota" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding:10px 18px;font-size:0.85rem;">
+                        <i class="fas fa-directions"></i> Get Directions
+                    </a>
+                    <a href="tel:9950456693" class="btn btn-white-outline" style="padding:10px 18px;font-size:0.85rem;">
+                        <i class="fas fa-phone-alt"></i> Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Shree Ganesh Dry Cleaners. All Rights Reserved. | <a href="index.html" style="color:var(--gold);">Best Dry Cleaning Service in Kota</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/919950456693?text=Hello%20Shree%20Ganesh%20Dry%20Cleaners,%20I%20need%20dry%20cleaning%20service." class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Us">
+    <i class="fab fa-whatsapp"></i>
+    <span>WhatsApp</span>
+</a>
+
+<!-- Floating Call Button (Mobile) -->
+<a href="tel:9950456693" class="floating-call" target="_blank" rel="noopener noreferrer" aria-label="Call Us">
+    <i class="fas fa-phone-alt"></i>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+    const canvas = document.getElementById('qr-canvas');
+    if (canvas) {
+        // Dynamic detection of current URL, with fallback to target live domain
+        const qr = new QRious({
+            element: canvas,
+            value: window.location.href.indexOf('http') === 0 ? window.location.href : 'https://shreeganeshdrycleaners.com/recommended-products.html',
+            size: 400,
+            level: 'H'
+        });
+        
+        document.getElementById('download-qr-btn').addEventListener('click', () => {
+            const link = document.createElement('a');
+            link.download = 'shree-ganesh-shop-qr.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        });
+    }
+});
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
